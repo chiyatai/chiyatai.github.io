@@ -181,7 +181,7 @@ html, body {
     padding: 0;
 }
 
-img {
+.img_adaptive {
     padding: 0;
     display: block;
     margin: 0 auto;
