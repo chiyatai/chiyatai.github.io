@@ -147,3 +147,45 @@
     overflow: auto !important;
 }
 
+.header-text {
+    color: #080805;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid #ff9900;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 55px;
+    color: #ff9900;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #ff9900;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
