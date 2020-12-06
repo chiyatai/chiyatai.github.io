@@ -194,3 +194,7 @@ body::-webkit-scrollbar {
     max-width: 100%;
 }
 
+.navBarBackground {
+    background:rgb(243, 197, 145);z-index:99; font-size:20px;
+}
+
